@@ -1,22 +1,18 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 
 
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 0;
     font-style: normal;
 }
 
-h1 {
-    margin-top: 300px;
-    text-align: left;
-    font-size: 90px;
-    color: white;
-    margin-left: 30px;
 
-}
+   
+
+
 h2 {
     
     text-align: left;
@@ -35,38 +31,55 @@ h2 {
     /* Altura desejada */
    
     margin-left: 50px;
+   
+    
 
 }
 
 body {
     background-color: rgb(12, 12, 12);
+    overflow: auto; /* */ 
 }
-
 .container {
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 150px;
+   
+    width: 900px;
+    height: 600px;
+    border: 2px solid #000; /* Adiciona uma borda preta de 2 pixels */
+    border-radius: 100px 20px 100px 20px;
+   
+    border-color:aqua;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 80px rgb(226, 241, 16);
 }
+.logoadria {
+    margin-top: 0px;
+    width: 500px;
+    height: 500px;
+    
 
+    
+   
+    margin-left: 30px;
+}
 .fotoadria {
     position: absolute;
-    left: 700px;
+    left: 750px;
     /* Deslocamento de 600px para a esquerda */
-    top: 200px;
+    top: 300px;
     /* Deslocamento de 70px para baixo */
     width: 800px;
     /* tamanho da imagem*/
 }
 
-span {
-    color: rgb(226, 241, 16);
-}
+
 .botao {
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    border: solid rgb(226, 241, 16);
+    border: solid rgb(38, 241, 208);
     border-radius: 40px;
     border-width: 10px;
     width:300px;
@@ -74,7 +87,7 @@ span {
 color: white;
 margin-left: 120px;
 margin-top: 180px;
-box-shadow: 4px 4px 4px rgb(38, 241, 208);
+box-shadow: 4px 4px 4px rgb(226, 241, 16) ;
 cursor: pointer;
 }
 h3{
