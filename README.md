@@ -1,3 +1,3 @@
 # Olá, mundo!
- primeiro repositorio versionado para aula curso em video.
-Essa linha eu adicionei diretamente no site.
+ Amostra de site para portifólio de DEV. Utilizei HTML5, CSS e um pouco de javascrip.
+ 
