@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    margin-top: 300px;
+    text-align: left;
+    font-size: 90px;
+    color: white;
+    margin-left: 30px;
+
+}
+h2 {
+    
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-left: 80px;
+
+}
+.sobremim {
+    text-align: justify;
+    font-size: 20px ;
+    color: white;
+    width: 800px;
+    /* Largura desejada */
+    height: 300px;
+    /* Altura desejada */
+   
+    margin-left: 50px;
+
+}
+
+body {
+    background-color: rgb(12, 12, 12);
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+
+.fotoadria {
+    position: absolute;
+    left: 700px;
+    /* Deslocamento de 600px para a esquerda */
+    top: 200px;
+    /* Deslocamento de 70px para baixo */
+    width: 800px;
+    /* tamanho da imagem*/
+}
+
+span {
+    color: rgb(226, 241, 16);
+}
+.botao {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border: solid rgb(226, 241, 16);
+    border-radius: 40px;
+    border-width: 10px;
+    width:300px;
+    height: 100px;
+color: white;
+margin-left: 120px;
+margin-top: 180px;
+box-shadow: 4px 4px 4px rgb(38, 241, 208);
+cursor: pointer;
+}
+h3{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-left: 80px;
+
+}
+h4 {
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-left: 450px;
+    
+}
+.logofacebook {
+    width: 50px;
+    height: 50px;
+    transform:translate(700px);
+    
+   
+}
+.logoinstagram {
+    width: 50px;
+    height: 50px;
+    transform:translate(700px);
+}
+.logolinkedin {
+    width: 50px;
+    height: 50px;
+    transform:translate(700px);
+}
+.maozinha {
+    width: 50px;
+    height: 50px;
+    transform:translate(630px);
+}
+
